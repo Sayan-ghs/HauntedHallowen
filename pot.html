@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="pot.css" />
+  </head>
+  <body>
+    <div class="gooeys center">
+      <canvas style="position: absolute" id="canvas"></canvas>
+    </div>
+    <div class="container">
+      <div class="glow center"></div>
+      <div class="shadow center"></div>
+      <div class="pot-top center"></div>
+      <div class="pot center"></div>
+      <div class="spider_0">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+        <span class="leg left"></span>
+        <span class="leg left"></span>
+        <span class="leg left"></span>
+        <span class="leg left"></span>
+        <span class="leg right"></span>
+        <span class="leg right"></span>
+        <span class="leg right"></span>
+        <span class="leg right"></span>
+      </div>
+      <div class="spider_1">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+        <span class="leg left"></span>
+        <span class="leg left"></span>
+        <span class="leg left"></span>
+        <span class="leg left"></span>
+        <span class="leg right"></span>
+        <span class="leg right"></span>
+        <span class="leg right"></span>
+        <span class="leg right"></span>
+      </div>
+      <div class="spider_2">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+        <span class="leg left"></span>
+        <span class="leg left"></span>
+        <span class="leg left"></span>
+        <span class="leg left"></span>
+        <span class="leg right"></span>
+        <span class="leg right"></span>
+        <span class="leg right"></span>
+        <span class="leg right"></span>
+      </div>
+      <div class="spider_3">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+        <span class="leg left"></span>
+        <span class="leg left"></span>
+        <span class="leg left"></span>
+        <span class="leg left"></span>
+        <span class="leg right"></span>
+        <span class="leg right"></span>
+        <span class="leg right"></span>
+        <span class="leg right"></span>
+      </div>
+      <div class="spider_4">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+        <span class="leg left"></span>
+        <span class="leg left"></span>
+        <span class="leg left"></span>
+        <span class="leg left"></span>
+        <span class="leg right"></span>
+        <span class="leg right"></span>
+        <span class="leg right"></span>
+        <span class="leg right"></span>
+      </div>
+      <div class="spider_5">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+        <span class="leg left"></span>
+        <span class="leg left"></span>
+        <span class="leg left"></span>
+        <span class="leg left"></span>
+        <span class="leg right"></span>
+        <span class="leg right"></span>
+        <span class="leg right"></span>
+        <span class="leg right"></span>
+      </div>
+      <h1>Happy Halloween!</h1>
+      <img
+        class="web-right"
+        src="http://www.scandiafun.com/images/spiderweb-corner-right.png"
+      />
+      <img
+        class="web-left"
+        src="http://www.scandiafun.com/images/spiderweb-corner-right.png"
+      />
+    </div>
+    <svg>
+      <defs>
+        <filter id="filter">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+          <feColorMatrix
+            in="blur"
+            mode="matrix"
+            values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 17 -10"
+            result="filter"
+          />
+          <feBlend />
+        </filter>
+      </defs>
+    </svg>
+    <audio id="backgroundaudio" autoplay>
+      <source src="assets\spooky1.mp3" type="audio/mpeg" />
+    </audio>
+    <script src="index.js"></script>
+  </body>
+</html>

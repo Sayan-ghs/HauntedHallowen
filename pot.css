@@ -416,3 +416,10 @@ canvas {
     box-shadow: 0 0 120px 50px;
   }
 }
+footer{
+  background-color: #4f4;
+  height:50vh;
+  width:100vw;
+  bottom:10px;
+  z-index: 1;
+}

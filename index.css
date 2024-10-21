@@ -500,6 +500,26 @@ h1 {
   -webkit-animation: candle linear 3s infinite;
   animation: candle linear 3s infinite;
 }
+button{
+  margin-top:10%;
+  padding: 15px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: orange;
+  color: black;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: darkorange;
+  transform: scale(1.1);
+}
+.signup{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
 footer {
   margin-top: 30px;
   font-size: 0.9rem;
